@@ -3,5 +3,5 @@
 
 
 <h1> ABOUT THIS PROJECT </H1>
-Esse é um projeto que eu gostei muito de fazer, se trata de uma prova que consiste em criar uma tela de venda, com os dados do usuário e os dados da entrega. 
+Esse é um projeto que eu gostei muito de fazer. se trata de uma prova que consiste em criar uma tela de venda, com os dados do usuário e os dados da entrega. 
 Ele foi basicamente feito com o JavaScript lendo a API do arquivo JSON.
