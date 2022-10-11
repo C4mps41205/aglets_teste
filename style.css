@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper, .output {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.wrapper div{
+    border: solid 1px;
+    text-align: center;
+    background-color: #7397d5; 
+    color: white; 
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+.line03:hover, .line02:hover, .line01:hover, .line00:hover{
+    background-color: #4877c7;
+    cursor: pointer;
+}
+.wrapper_info{
+    display: grid;
+    grid-template-columns: 200px 600px;
+    justify-content: center;
+    margin-top: 10%;
+}
+.wrapper_info div{
+    border: solid 1px;
+    text-align: center;
+    background-color: #7397d5; 
+    color: white; 
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+}
+#tabela1, #tabela2, #tabela3{
+    grid-template-columns: 200px 600px;
+    display: none;
+}
+#table_nota{
+    display: grid;
+    grid-template-columns: 200px 600px;
+    justify-content: center;
+    margin: 0 auto;  
+}
